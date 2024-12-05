@@ -31,10 +31,7 @@ class ChatClient:
         self.chat_frame = Frame(self.window)
         self.chat_history = Text(self.chat_frame, wrap="word", height=20, width=50, state="disabled")
         self.chat_history.pack(side="left", fill="both", expand=True)
-
-        #scrollbar = Scrollbar(self.chat_frame, command=self.chat_history.yview)
-        #scrollbar.pack(side="right", fill="y")
-        #self.chat_history.config(yscrollcommand=scrollbar.set)
+        
         self.chat_frame.grid(row=2, column=0, columnspan=3, padx=5, pady=5)
 
         # Bind entry box to send message on Enter key
