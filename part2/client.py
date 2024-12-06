@@ -1,3 +1,8 @@
+# Group#: 12
+# Student Names: Sara Hematy, Nikoo Ghasemkhanvali Vali, Julia Wadey
+
+#Content of client.py; to complete/implement
+
 from tkinter import *
 import socket
 import threading
@@ -85,4 +90,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    
 
